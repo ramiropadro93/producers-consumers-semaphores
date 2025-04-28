@@ -7,8 +7,8 @@
 
     static async Task Main(string[] args)
     {
-        var producerCount = int.Parse(Environment.GetEnvironmentVariable("PRODUCER_COUNT") ?? "2");
-        var consumerCount = int.Parse(Environment.GetEnvironmentVariable("CONSUMER_COUNT") ?? "2");
+        var producerCount = 5;
+        var consumerCount = 3;
 
         var tasks = new Task[producerCount + consumerCount];
 
@@ -29,7 +29,7 @@
 
     static async Task Producer(int producerNumber)
     {
-        var cantidadMensajes = int.Parse(Environment.GetEnvironmentVariable("MESSAGE_COUNT") ?? "10");
+        var cantidadMensajes = 10;
         for (int i = 0; i < cantidadMensajes; i++)
         {
             await emptySemaphore.WaitAsync();
