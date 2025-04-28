@@ -1,0 +1,64 @@
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de Visual Studio
+.vscode/
+*.code-workspace
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.xml
+
+# Archivos generados por el sistema
+*.log
+*.tmp
+*.temp
+*.swp
+
+# Directorios generados por build
+bin/
+obj/
+out/
+
+# Archivos de paquete de NuGet
+.nuget/
+packages/
+
+# Archivos de Docker
+docker-compose.override.yml
+docker-compose.debug.yml
+
+# Configuración de Rider
+.idea/
+
+# Archivos de backup
+*.bak
+*.bkp
+*.old
+
+# Archivos de JetBrains Rider
+.idea/
+
+# Configuración de GitHub Codespaces
+.codespaces/
+
+# Entorno específico de localización
+local.settings.json
+
+# Carpeta para archivos de perfil de usuario
+*.user
+*.userosscache
+*.suo
+
+# Archivos generados por el IDE
+*.ncb
+*.suo
+*.sln.docstates
